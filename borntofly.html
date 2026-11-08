@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Sound Effects Machine</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="js/favicon.ico">
+</head>
+<body>
+  <div id="container">
+	<header>
+		<h1>SFX (2): BORN TO FLY</h1>
+		<script>var thisEpisode = "BORNTOFLY";//"MERCYFLIGHT", "BORNTOFLY", "BADTHINGS"</script>
+		
+		<!--NAV-->
+		<ul>
+			<!-- <li><a href="mercyflight.html">MERCY FLIGHT</a></li>
+			<li><a href="borntofly.html">BORN TO FLY</a></li> -->
+			<li><a href="barker.html">BARKER</a></li>
+			<li><a href="badthings.html">BAD THINGS</a></li>
+		</ul>
+
+        <!--SETTINGS BUTTONS-->
+		<div id="buttons">
+			<button id="buttons__save">Save Settings</button>
+			<button id="buttons__get">Retrieve Settings</button>
+			<button id="buttons__clear">Clear All Saved Settings</button>
+		</div>
+	</header>
+	
+	<main id="cuelist"></main>
+  </div><!--END CONTAINER-->
+  
+
+<!--EPISODE SOUND EFFECTS AUDIO-->
+<script src="js/SFX_Mercy_Flight.js"></script>
+<script src="js/SFX_Born_to_Fly.js"></script>
+<script src="js/SFX_Bad_Things.js"></script>
+
+<!--EPISODE SOUND EFFECTS TEXT-->
+<script src="js/TXT_Mercy_Flight.js"></script>
+<script src="js/TXT_Born_to_Fly.js"></script>
+<script src="js/TXT_Bad_Things.js"></script>
+
+<!--MAIN LOGIC FOR SFX APP-->
+<script src="js/sfx.js"></script>
+</body>
+</html>
