@@ -1,7 +1,7 @@
 //Ep. 13 WILLIAM GEORGE BARKER- The Will to Win a War
 
 var TEXT_BARKER = [
-"SCENE 1 Doors and Wing (Timed)",
+"SCENE 1 Doors and Wind (Timed)",
 "SCENE 2 Entirety (Timed)",
 "SCENE 3 Entirety",
 "SCENE 5 PART-A",
